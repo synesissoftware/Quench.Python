@@ -1,0 +1,2 @@
+Quench.Python is a customisable exception-quenching library for Python
+Copyright (c) 2026, Matthew Wilson and Synesis Information Systems
