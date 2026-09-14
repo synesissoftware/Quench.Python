@@ -4,7 +4,7 @@ Customisable exception-quenching library, for Python
 
 ![Language](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![PyPI](https://img.shields.io/pypi/v/quench.svg)](https://pypi.org/project/quench/)
+[![PyPI](https://img.shields.io/pypi/v/pyquench.svg)](https://pypi.org/project/pyquench/)
 [![GitHub release](https://img.shields.io/github/v/release/synesissoftware/Quench.Python.svg)](https://github.com/synesissoftware/Quench.Python/releases/latest)
 [![Last Commit](https://img.shields.io/github/last-commit/synesissoftware/Quench.Python)](https://github.com/synesissoftware/Quench.Python/commits/master)
 [![CI](https://github.com/synesissoftware/Quench.Python/actions/workflows/python-package.yml/badge.svg)](https://github.com/synesissoftware/Quench.Python/actions/workflows/python-package.yml)
@@ -36,16 +36,22 @@ Customisable exception-quenching library, for Python
 
 ## Installation
 
-Install via **pip**:
+Install via **pip** or **pip3**, as in:
 
 ```
-pip install quench
+$ pip3 install pyquench
 ```
 
 Use via **import**:
 
 ```Python
-import quench
+import pyquench
+```
+
+or, as we prefer,
+
+```Python
+import pyquench as quench
 
 print(quench.__version__)
 ```

@@ -5,6 +5,7 @@
 
 * initial project scaffolding;
 * **Python** **2.7** and **3.8+** compatibility;
+* published on **PyPI** as **pyquench** (import **pyquench**, prefer `import pyquench as quench`);
 
 
 <!-- ########################### end of file ########################### -->

@@ -1,6 +1,6 @@
 import unittest
 
-import quench
+import pyquench as quench
 
 
 class Test_quench(unittest.TestCase):

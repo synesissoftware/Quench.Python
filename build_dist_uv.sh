@@ -8,7 +8,7 @@ if [ ! -d .venv ]; then
     uv venv
 fi
 
-rm -rf build/ dist/ quench.egg-info/
+rm -rf build/ dist/ pyquench.egg-info/
 
 uv pip install build twine
 .venv/bin/python -m build
